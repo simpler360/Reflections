@@ -1,0 +1,52 @@
+
+how did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Ans : Rather then seeing each and every line to get to a conclusion about what went 
+worng it is good idea to see only thouse portion of the file which got chenged
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Ans : In real world programmers work on very critical system with a large number of 
+imporvements made over a period of time. The contrubution can come form meny different
+programmer at different points in time. having entire history of a file will enable any
+programmer to discover what code was changed do acomodate different specification.
+further, it is very easy to understand what caused the bug. current changes or any change in 
+history.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Ans : pros : Programmer are in best position to commit manually because they know
+when a bug is fixed. so each and every commit or version of a file is logical makes sense.
+
+cons : Human are prown to errors and might forget to commit or save.
+but they would realize after they have lost there work.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Ans : As in programming it is mostly the case that files are interrelated.
+so git allows to track multiple files
+where as in media the files mostly not interrelated thus Google Docs dont allow it.
+
+optimization. 
+
+How can you use the commands git log and git diff to view the history of files?
+   
+Ans : We can use th git log to get the required commit id and a previous commit id 
+once we have the commit ids we can use the git diff commmand to get the differences
+between the two versions reposotory.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Ans : As it is possible to keeptrack of every change I maid and to undo it if nessessory 
+it is very convinient and I will fill fully confident to make a change that might break
+the system.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Ans : will like to work on the same astroid game. To source control all my progects. 
