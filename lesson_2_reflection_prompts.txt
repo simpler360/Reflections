@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Ans : When we initialize a git repository a hidden directory is created under the current directory named .git.
+      This directory contains all the meta data discribing the changes. We need to do it because till we initialize 
+      the reposetory we can not track the changes.
+      Initializing a repository does not creat any comments due to two reasons 1st not all the files in the directory 
+      need to be version controled. 2nd we will not be able to specifiy the commit massage.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Ans : working directory is the directory where a user is working. repository is a git repository which holds the source
+     control data. where as staging are is a temporory area were user can sellectively add the files to be tracked 
+	by git repository 
