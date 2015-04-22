@@ -10,4 +10,32 @@ How is the staging area different from the working directory and the repository?
 
 Ans : working directory is the directory where a user is working. repository is a git repository which holds the source
      control data. where as staging are is a temporory area were user can sellectively add the files to be tracked 
-	by git repository 
+	by git repository
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Ans : once we are done with editting the files that we want we can add it to the staging are 
+	as guided by the logic. make commit and then add the next files to staging area
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Ans : To try out exprimental changes, to make new version for different languages, 
+
+How do the diagrams help you visualize the branch structure?
+
+Ans : Pitcher specks more than 10000 words. it is easiere to grasp the consepts and also to debug with the aid to diagram
+	then just seeing the data.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Ans : Updates done in both branch will be murged together to form a new commit represented by the checkedout branch at the 
+ 	time of mereging. its due to the checked out branch will be updated to pointed to the new commit or mearge commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Ans : pros : when the mearging is pritty obvious like addtion of new methods/function programmer needs not do it manually
+	git just takes care of it. easy life.
+
+	I cant think of cons of automatic merging , As it says when any conflicts occure.
+
+ 
